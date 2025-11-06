@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios con fetch</title>
+    <link rel="stylesheet" href="../Ejercicio_fetch/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Usuarios</h1>
+        
+        <div class="buttons">
+            <button id="btnAsync">Cargar con Async/Await</button>
+            <button id="btnPromise">Cargar con Promesas</button>
+        </div>
+        
+        <div id="loading" class="loading">Cargando usuarios...</div>
+        <div id="error" class="error"></div>
+        <ul id="usersList" class="users-list"></ul>
+    </div>
+    
+    <script src="../Ejercicio_fetch/app.js"></script>
+</body>
+</html>
